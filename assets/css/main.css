@@ -1949,6 +1949,7 @@
 		#header header {
 			display: inline-block;
 			padding: 0 0 4.5em 0;
+			width: 70%;
 		}
 
 			#header header h1 {
@@ -2205,7 +2206,8 @@
 		}
 
 		#ticket header {
-			margin: 0 0 2em 0;
+			margin: 0 auto 2em;
+			width: 27%;
 		}
 
 			#ticket header h2 {
@@ -2213,8 +2215,6 @@
 			    font-size: 1.75em;
 			    letter-spacing: 8px;
 			    background-color: rgba(0,0,0,0.7);
-			    width: 27%;
-			    margin: 0 auto;
 			}
 
 		#ticket p {
@@ -2508,6 +2508,13 @@
 					padding: 2.5em 2em 2.5em 2em;
 				}
 
+		/* Header */
+
+		#ticket header {
+			margin: 0 auto 2em;
+			width: 70%;
+		}
+
 		/* Banner */
 
 			#banner {
@@ -2518,6 +2525,12 @@
 				#banner br {
 					display: none;
 				}
+
+				#banner header {
+    				margin: 0 auto 2em;
+    				background-color: rgba(255, 255, 255, 0.7);
+    				width: 70%;
+    			}
 
 		/* Banner 2 */
 
