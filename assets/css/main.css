@@ -1940,7 +1940,7 @@
 		margin: 0;
 		padding: 11em 0 6em 0;
 		cursor: default;
-		background-image:    url('../../images/beakers.jpg');
+		background-image:    url('../../images/alices_garden.jpg');
 	    background-size:     cover;
 	    background-repeat:   no-repeat;
 	    background-position: center center;
@@ -1977,7 +1977,7 @@
 
 		#header footer {
 			position: absolute;
-			bottom: 9em;
+			bottom: 7em;
 			margin: 0;
 			width: 100%;
 		}
@@ -1989,7 +1989,7 @@
 				height: 66px;
 				position: absolute;
 				left: 50%;
-				bottom: -4.5em;
+				bottom: -3.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
 				background: url("images/arrow.svg") no-repeat;
@@ -2005,7 +2005,7 @@
 		margin: 0;
 		padding: 10em 0 3em 0;
 		cursor: default;
-		background-image:    url('../../images/hazmatsuits.jpg');
+		background-image:    url('../../images/mushroom_forest.jpg');
 	    background-size:     cover;
 	    background-repeat:   no-repeat;
 	    background-position: center center;
@@ -2072,10 +2072,10 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #35b88f url("../../images/roses.jpg") top 48% center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
+		background-size: 116% auto;
 	}
 
 		#banner .button {
@@ -2084,18 +2084,24 @@
 		}
 
 		#banner header {
-			margin: 0 0 2em 0;
+		    margin: 0 auto 2em;
+    		background-color: rgba(255, 255, 255, 0.7);
+    		width: 25%;
 		}
 
 			#banner header h2 {
 				font-weight: 400;
 				font-size: 1.75em;
 				letter-spacing: 8px;
+				color: #B32626;
 			}
 
 		#banner p {
-			margin: 0;
-			padding: 0 10%;
+		    margin: 0 auto;
+		    color: rgba(0,0,0,0.9);
+		    width: 85%;
+		    padding: 4%;
+		    background-color: rgba(255, 255, 255, 0.7);
 		}
 
 		#banner footer {
@@ -2132,10 +2138,9 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("../../images/volunteers.jpg") center center no-repeat;
+		background-color: #000;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
 	}
 		#banner2 div {
 			margin: 0 10%;
@@ -2160,6 +2165,8 @@
 			}
 
 		#banner2 p {
+			font-family: 'Clicker Script', cursive;
+		    font-size: 2.3em;
 			margin: 0;
 			padding: 0;
 		}
@@ -2186,7 +2193,7 @@
 		text-align: center;
 		margin: 0;
 		padding: 4em 0;
-		background: #35b88f url("../../images/microscope.jpg") ;
+		background: #35b88f url("../../images/clock.jpg") ;
 	    background-size:     cover;
 	    background-repeat:   no-repeat;
 	    background-position: center center;
@@ -2202,9 +2209,12 @@
 		}
 
 			#ticket header h2 {
-				font-weight: 400;
-				font-size: 1.75em;
-				letter-spacing: 8px;
+			    font-weight: 400;
+			    font-size: 1.75em;
+			    letter-spacing: 8px;
+			    background-color: rgba(0,0,0,0.7);
+			    width: 27%;
+			    margin: 0 auto;
 			}
 
 		#ticket p {
