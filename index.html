@@ -23,13 +23,14 @@
                 <div style="background-color:rgba(0, 0, 0, 0.7); padding: 10%; margin-bottom: 30px">
                     <h1 style="font-size: 1.4em;">Follow the White Rabbit</h1>
                     <p>Saturday June 3rd, 2017<br/>
+                    8:00 PM - 2:00 AM<br/>
                     <img style="margin-top: 8px;" src="images/white_rabbit.png"/><br/>
-                    Secret Soma Location<br/>
+                    Secret Soma Location - 21+ only<br/>
                     </p>
                 </div>
             </header>
             <footer>
-                <a href="#buy_tickets" class="button style2 scrolly-middle">Buy Tickets</a>
+                <a id="buy_tickets" class="button style2 scrolly-middle">Buy Tickets</a>
             </footer>
         </section>
         <section id="header2">
@@ -39,10 +40,10 @@
                     
                     <ul>
                         <li>Psychedelic tea parties</li>
-                        <li>Arial Alice's</li>
+                        <li>Aerial Alice's</li>
                         <li>Contorting Cheshires</li>
                         <li>Talking Tiger-lillies</li>
-                        <li>Face painting playing cards</li>
+                        <li>Face painting with <a href="https://www.facebook.com/CLoveLambert/">Cassandra Love</a></li>
                         <li>Live music fit for a Queen</li>
                         <li>Beats to keep all of Wonderland dancing through the night</li>
                         <li>...and more</li>
@@ -59,7 +60,6 @@
     <!-- Ticket -->
         <section id="ticket">
             <header>
-                <a name="buy_tickets"></a>
                 <h2>Buy Tickets</h2>
             </header>
             
@@ -97,10 +97,20 @@
         </div>
     </section>
 
-    <div id="fail">
+<!--     <div id="fail">
         <h1 style="font-size: .8em; margin-bottom: 30px;">Lab Access Denied, Password Incorrect</a></h1>
         <button id="try-again" style="font-size: 16px;">Try Again</button>
-    </div>
+    </div> -->
+
+    <script>
+        $(document).ready(function (){
+            $("#buy_tickets").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#ticket").offset().top
+                }, 1000);
+            });
+        });
+    </script>
 
         <!-- <script language="javascript">
         
